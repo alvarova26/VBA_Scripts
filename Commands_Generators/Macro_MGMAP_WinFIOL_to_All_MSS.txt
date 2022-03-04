@@ -1,0 +1,27 @@
+!*************************************************************************
+!* Script: VBScript to send MGMAP commands to all MSSs                   *
+!* Author: Alvaro R. Mendoza                                             *
+!* Date: 26/02/2021                                                      *
+!*************************************************************************
+
+!**** RNC MAPPING LAC TODAS AS MSS ****!
+
+
+!****************************************************************** MSSBA3
+eaw MSSBA3
+MGMAP:RNC=RNCBA01;
+MGMAP:RNC=RNCSP88;
+EXIT;
+
+!****************************************************************** MSSBA7
+eaw MSSBA7
+MGMAP:RNC=RNCBA03;
+MGMAP:RNC=RNCSP89;
+EXIT;
+
+!****************************************************************** MSSBA8
+eaw MSSBA8
+MGMAP:RNC=RNCBA02;
+MGMAP:RNC=RNCBA06;
+MGMAP:RNC=RNCBA88;
+EXIT;

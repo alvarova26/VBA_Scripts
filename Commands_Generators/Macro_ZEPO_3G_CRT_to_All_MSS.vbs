@@ -40,4 +40,13 @@ crt.Screen.Send "ZZZ;" & vbcr
 crt.Screen.WaitForString "Press Enter to continue."
 crt.Screen.Send vbcr
 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' MSSBAC
+crt.Screen.Send "c7xtermx -n MSSBA0C" & vbcr
+crt.Screen.WaitForString "< "
+crt.Screen.Send "ZEPO:TYPE=SA;" & vbcr
+crt.Screen.WaitForString "COMMAND EXECUTED"
+crt.Screen.Send "ZZZ;" & vbcr
+crt.Screen.WaitForString "Press Enter to continue."
+crt.Screen.Send vbcr
+
 End Sub

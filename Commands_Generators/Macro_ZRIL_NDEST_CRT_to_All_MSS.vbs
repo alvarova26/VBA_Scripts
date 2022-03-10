@@ -5,7 +5,7 @@
 ' Script: VBScript to send ZRIL SDEST commands to all MSSs              '
 ' Author: Alvaro R. Mendoza                                             '
 ' Date: 20/08/2021                                                      '
-' Version: 2A (23/08/2021)                                              '
+' Version: 3A (10/03/2023)                                              '
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
@@ -33,6 +33,15 @@ crt.Screen.Send vbcr
 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' MSSBAA
 crt.Screen.Send "c7xtermx -n MSSBA0A" & vbcr
+crt.Screen.WaitForString "< "
+crt.Screen.Send "ZRIL:NDEST=;" & vbcr
+crt.Screen.WaitForString "COMMAND EXECUTED"
+crt.Screen.Send "ZZZ;" & vbcr
+crt.Screen.WaitForString "Press Enter to continue."
+crt.Screen.Send vbcr
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' MSSBAC
+crt.Screen.Send "c7xtermx -n MSSBA0C" & vbcr
 crt.Screen.WaitForString "< "
 crt.Screen.Send "ZRIL:NDEST=;" & vbcr
 crt.Screen.WaitForString "COMMAND EXECUTED"

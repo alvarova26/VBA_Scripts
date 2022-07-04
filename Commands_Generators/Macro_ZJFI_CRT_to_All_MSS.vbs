@@ -5,7 +5,7 @@
 ' Script: VBScript to send ZJFI commands to all MSSs                    '
 ' Author: Alvaro R. Mendoza                                             '
 ' Date: 13/08/2021                                                      '
-' Version: 3A (10/03/2023)                                              '
+' Version: 3A (10/03/2022)                                              '
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 

@@ -5,7 +5,7 @@
 ' Script: VBScript to send ZRNI commands to all MSSs                    '
 ' Author: Alvaro R. Mendoza                                             '
 ' Date: 23/08/2021                                                      '
-' Version: 3A (10/03/2023)                                              '
+' Version: 3A (10/03/2022)                                              '
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 

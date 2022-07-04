@@ -5,7 +5,7 @@
 ' Script: VBScript to send ZEPO (3G) commands to all MSSs               '
 ' Author: Alvaro R. Mendoza                                             '
 ' Date: 26/02/2021                                                      '
-' Version: 2A (23/08/2021)                                              '
+' Version: 3A (10/03/2022)                                              '
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 

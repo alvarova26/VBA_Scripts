@@ -5,7 +5,7 @@
 ' Script: VBScript to send ZRCI commands to all MSSs                    '
 ' Author: Alvaro R. Mendoza                                             '
 ' Date: 25/08/2021                                                      '
-' Version: 3A (10/03/2023)                                              '
+' Version: 3A (10/03/2022)                                              '
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 
